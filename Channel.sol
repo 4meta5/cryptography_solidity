@@ -12,7 +12,7 @@ contract Channel {
   function Channel(address to, uint timeout) payable {
     channelRecipient = to;
     channelSender = msg.sender;
-    startDate = noew;
+    startDate = new;
     channelTimeout = timeout;
   }
 
